@@ -1,0 +1,7 @@
+{
+  "$DB->get_records": {
+    "prefix": ["$DB->get_records", "$DBgrs"],
+    "body": "\\$DB->get_records(${1:\\$table_name}${2:, ${3:\\$conditions_array}${4:, ${5:\\$sort}${6:, ${7:\\$fields}${8:, ${9:\\$limit_start}${10:, ${11:\\$limit_qt}}}}}});",
+    "description": "Obtém um array de objetos conforme as condições especificadas."
+  }
+}

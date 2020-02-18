@@ -1,0 +1,7 @@
+{
+  "$mform->addElement": {
+    "prefix": ["$mform->addElement", "$mfae"],
+    "body": "\\$mform->addElement(${1:\\$element}, ${2:\\$name}, ${3:\\$string});",
+    "description": "Adiciona um elemento de formulário."
+  }
+}
