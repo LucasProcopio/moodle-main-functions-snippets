@@ -7,12 +7,12 @@
   "Moodle Form add a element": {
     "prefix": ["$mfadd_ele", "$mfae"],
     "body": "\\$mform->addElement(${1:\\$element}, ${2:\\$name}, ${3:\\$string});",
-    "description": "Add an moodle form element."
+    "description": "Add a moodle form element."
   },
   "Moodle Form add action buttons": {
     "prefix": ["$mfadd_btn", "$mfab"],
     "body": "\\$this->add_action_buttons(${1:false}, ${2:\\$string});",
-    "description": "Add an moodle form action buttons."
+    "description": "Add a moodle form action buttons."
   },
   "Moodle Form add a set of elements": {
     "prefix": ["$mform", "$mf"],

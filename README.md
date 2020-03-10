@@ -1,65 +1,49 @@
-# Moodle Main functions snippets README
+# 🔥 Moodle Main functions snippets 🔥
 
-This is the README for your extension "Moodle Main functions snippets". After writing up a brief description, we recommend including the following sections.
+> Make your life easier as a moodle developer, using the main moodle functionalities snippets for VScode.
+
+<p align="center">
+  <img src="images/icon.png" alt="moodle vscode snippets demo">
+</p>
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+> **FORM SNIPPETS**
 
-For example if there is an image subfolder under your extension project workspace:
+|      **Snippet**       |                          **Description**                          |
+| :--------------------: | :---------------------------------------------------------------: |
+| `$mfadd_header, $mfah` |                     Add a moodle form Header.                     |
+|  `$mfadd_ele, $mfae`   |                    Add a moodle form element.                     |
+|     `$mform, $mf`      | Add a complete moodle form element with type,rule and help button |
+|  `$mfadd_btn, $mfab`   |                  Add moodle form action buttons.                  |
+| `$mfmulti_sel, $mfams` |            Add a moodle form multi-select input field.            |
 
-![fMoodle Snippets](images/icon.png)
+> **TABLE SQL SNIPPET**
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+|    **Snippet**     |             **Description**              |
+| :----------------: | :--------------------------------------: |
+| `mdl_table, mtsql` | Add a complete moodle table sql skeleton |
 
-## Requirements
+> **PAGE SNIPPET**
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+|    **Snippet**    |        **Description**         |
+| :---------------: | :----------------------------: |
+| `mdl_page, mpage` | Add a moodle web page skeleton |
 
-## Extension Settings
+> **PLUGIN VERSION SNIPPET**
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+|      **Snippet**       |           **Description**            |
+| :--------------------: | :----------------------------------: |
+| `mdl_version, version` | Add a moodle plugin version skeleton |
 
-For example:
-
-This extension contributes the following settings:
-
-- `myExtension.enable`: enable/disable this extension
-- `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+<p align="center">
+  <img src="images/moodle_snippets.gif" alt="moodle vscode snippets demo">
+</p>
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- **Version 1.0.0**
 
 ---
 
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**⭐⭐ Enjoy! ⭐⭐**
