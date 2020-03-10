@@ -2,9 +2,10 @@
   "version.php": {
     "prefix": ["version", "mdl_version"],
     "body": [
-      "/**Plugin file documentation\n",
-      "*@author YOUR NAME",
-      "*@package type_pluginname",
+      "/**",
+      "* Plugin file documentation",
+      "* @author YOUR NAME",
+      "* @package type_pluginname",
       "*/",
       "$defined('MOODLE_INTERNAL') || die();\n",
       "\\$plugin->component = 'type_pluginname';",
