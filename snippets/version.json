@@ -1,12 +1,12 @@
 {
   "version.php": {
-    "prefix": ["version", "mdlversion"],
+    "prefix": ["version", "mdl_version"],
     "body": [
       "/**Plugin de gatos maravihosos arquivo de versão\n",
       "*@author YOUR NAME",
       "*@package type_pluginname",
       "*/",
-      "$defined('MOODLE_INTERNAL') || die('Cade a palavra mágica ?');\n",
+      "$defined('MOODLE_INTERNAL') || die();\n",
       "\\$plugin->component = 'type_pluginname';",
       "\\$plugin->version = YYYYMMDDXX;",
       "\\$plugin->release = 'v1.0.0';"

@@ -1,7 +1,7 @@
 {
   "name": "skill_moodle_snippets",
   "displayName": "Moodle - snippets",
-  "description": "Moodle main used functions snippets for VScode.",
+  "description": "Make your life easier as a moodle developer, using the main moodle functionalities snippets for VScode.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.42.0"
