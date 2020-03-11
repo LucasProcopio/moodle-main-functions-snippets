@@ -1,7 +1,18 @@
 {
-  "name": "skill_moodle_snippets",
-  "displayName": "Moodle - snippets",
+  "name": "moodle-snippets",
+  "displayName": "🔥 Moodle snippets 🔥",
   "description": "Make your life easier as a moodle developer, using the main moodle functionalities snippets for VScode.",
+  "publisher": "lucaspro",
+  "author": {
+    "name": "Lucas Henrique Procopio"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/LucasProcopio/moodle-main-functions-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucasProcopio/moodle-main-functions-snippets"
+  },
+  "icon": "images/icon.png",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.42.0"
