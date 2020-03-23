@@ -1,0 +1,42 @@
+{
+  "Error notification": {
+    "prefix": ["mdl_err_n", "merrn"],
+    "body": "\\core\\notification::error(${1:get_string('string', 'pluginname')});",
+    "description": "Add error moodle notification"
+  },
+  "Warning notification": {
+    "prefix": ["mdl_warn_n", "mwarnn"],
+    "body": "\\core\\notification::warning(${1:get_string('string', 'pluginname')});",
+    "description": "Add warning moodle notification"
+  },
+  "Info notification": {
+    "prefix": ["mdl_inf_n", "minfn"],
+    "body": "\\core\\notification::info(${1:get_string('string', 'pluginname')});",
+    "description": "Add info moodle notification"
+  },
+  "Success notification": {
+    "prefix": ["mdl_suc_n", "msucn"],
+    "body": "\\core\\notification::success(${1:get_string('string', 'pluginname')});",
+    "description": "Add success moodle notification"
+  },
+  "Problem notification": {
+    "prefix": ["mdl_prob_n", "mprobn"],
+    "body": "\\core\\notification::problem(${1:get_string('string', 'pluginname')});",
+    "description": "Add problem moodle notification"
+  },
+  "Add custom type notification": {
+    "prefix": ["mdl_add_n", "maddn"],
+    "body": "\\core\\notification::add(${1:get_string('string', 'pluginname')}, ${2:'type'});",
+    "description": "Add a custom type moodle notification"
+  },
+  "Redirect with success notification": {
+    "prefix": ["mdl_redir_sucn", "mrsucn"],
+    "body": "redirect('/index.php', get_string('string', 'pluginname'), null, \\core\\output\\notification::NOTIFY_SUCCESS);",
+    "description": "Redirects to a page with a success message"
+  },
+  "Redirect with error notification": {
+    "prefix": ["mdl_redir_errn", "mrerrn"],
+    "body": "redirect('/index.php', get_string('string', 'pluginname'), null, \\core\\output\\notification::NOTIFY_ERROR);",
+    "description": "Redirects to a page with an error message"
+  }
+}

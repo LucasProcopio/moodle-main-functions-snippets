@@ -1,33 +1,33 @@
 {
   "Moodle Form add header element": {
-    "prefix": ["$mfadd_header", "$mfah"],
-    "body": "\\$mform->addElement(${1:'header'}, ${2:\\$name}, ${3:\\$string});",
+    "prefix": ["mdl_form_header", "mfh"],
+    "body": "\\$mform->addElement(${1:'header'}, ${2:'name'}, ${3:get_string('string', 'pluginname')});",
     "description": "Add a moodle form Header."
   },
   "Moodle Form add a element": {
-    "prefix": ["$mfadd_ele", "$mfae"],
-    "body": "\\$mform->addElement(${1:\\$element}, ${2:\\$name}, ${3:\\$string});",
+    "prefix": ["mdl_form_ele", "mfe"],
+    "body": "\\$mform->addElement(${1:'element'}, ${2:'name'}, ${3:get_string('string', 'pluginname')});",
     "description": "Add a moodle form element."
   },
   "Moodle Form add action buttons": {
-    "prefix": ["$mfadd_btn", "$mfab"],
-    "body": "\\$this->add_action_buttons(${1:false}, ${2:\\$string});",
+    "prefix": ["mdl_form_btn", "mfb"],
+    "body": "\\$this->add_action_buttons(${1:false}, ${2:get_string('string', 'pluginname')});",
     "description": "Add a moodle form action buttons."
   },
   "Moodle Form add a set of elements": {
-    "prefix": ["$mform", "$mf"],
+    "prefix": ["mdl_form", "mf"],
     "body": [
-      "\\$mform->addElement(${1:\\$element}, ${2:\\$name}, ${3:\\$string});",
-      "\\$mform->setType(${2:\\$name}, ${4:PARAM_TYPE});",
-      "\\$mform->addRule(${2:\\$name}, ${3:\\$string}, ${5:'required'}, ${6:null}, ${7:'server'});",
-      "\\$mform->addHelpButton(${2:\\$name}, ${2:\\$name}, ${8:\\$pluginname});"
+      "\\$mform->addElement(${1:'element'}, ${2:'name'}, ${3:get_string('string', 'pluginname')});",
+      "\\$mform->setType(${2:'name'}, ${4:PARAM_TYPE});",
+      "\\$mform->addRule(${2:'name'}, ${3:get_string('string', 'pluginname')}, ${5:'required'}, ${6:null}, ${7:'server'});",
+      "\\$mform->addHelpButton(${2:'name'}, ${2:'name'}, ${8:'pluginname'});"
     ],
     "description": "Add a complete moodle form element with type,rule and help button"
   },
   "Moodle Form add multi select": {
-    "prefix": ["$mfmulti_sel", "$mfams"],
+    "prefix": ["mdl_form_multise", "mfms"],
     "body": [
-      "\\$select = \\$mform->addElement(${1:'select'}, ${2:\\$name}, ${3:\\$string}, ${4:\\$options = []}, ${5:\\$attributes});",
+      "\\$select = \\$mform->addElement(${1:'select'}, ${2:'name'}, ${3:get_string('string', 'pluginname')}, ${4:\\$options = []}, ${5:\\$attributes});",
       "\\$select->setMultiple(${true});"
     ],
     "description": "Add a moodle form multi-select input field."

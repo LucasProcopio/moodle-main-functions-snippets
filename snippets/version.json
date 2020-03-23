@@ -11,6 +11,7 @@
       "\\$plugin->component = 'type_pluginname';",
       "\\$plugin->version = YYYYMMDDXX;",
       "\\$plugin->release = 'v1.0.0';"
-    ]
+    ],
+    "description": "Add a moodle plugin version skeleton"
   }
 }

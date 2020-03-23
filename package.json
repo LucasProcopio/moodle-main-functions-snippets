@@ -41,6 +41,10 @@
       {
         "language": "php",
         "path": "./snippets/page.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/notification.json"
       }
     ]
   }
